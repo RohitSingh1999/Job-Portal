@@ -1,0 +1,24 @@
+.jobs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .jobs-container h1 {
+    font-size: 2rem;
+    color: #1e293b;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .jobs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .jobs-grid {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -12,7 +12,7 @@ const Signup = () => {
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
-  // In your Signup.js component
+
 const handleSignup = async (e) => {
   e.preventDefault();
   
@@ -25,7 +25,7 @@ const handleSignup = async (e) => {
     await createUserWithEmailAndPassword(auth, email, password);
     navigate('/dashboard');
   } catch (err) {
-    // More user-friendly error messages
+    
     switch (err.code) {
       case 'auth/invalid-api-key':
         setError("Invalid configuration. Please contact support.");

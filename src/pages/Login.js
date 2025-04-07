@@ -1,4 +1,4 @@
-// Login.js
+
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';

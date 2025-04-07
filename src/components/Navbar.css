@@ -40,7 +40,7 @@
   }
   
   .signup-button {
-    background-color: #4f46e5;
+    background-color: #847eee;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 6px;
@@ -48,7 +48,7 @@
   }
   
   .signup-button:hover {
-    background-color: #4338ca;
+    background-color: #50ca38;
     color: white;
   }
   
