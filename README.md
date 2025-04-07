@@ -2,7 +2,8 @@
 
 A Naukri.com inspired job portal built with React, Firebase Authentication, and Firestore database.
 
-![Project Screenshot](./public/screenshot.png)
+![Project Screenshot](https://github.com/RohitSingh1999/Job-Portal/blob/master/public/signup.png)
+
 
 ## Features
 
